@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GDSC-IU | Web Branch sesion 1</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="//www.google.com/favicon.ico" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="left">
+        <!--Logo GDSC-->
+        <img
+          class="imgHeader"
+          width="80px"
+          src="https://raw.githubusercontent.com/ishanExtreme/Winter-of-Code-2.0-frontend/master/src/assets/images/GDSC_Logo.png"
+          alt="GDSC"
+        />
+        <!--Thẻ heading-->
+        <h2>Create your GDSC-IU account</h2>
+        <form>
+          <h3>Please enter your information below.</h3>
+          <!--Nhập họ tên-->
+          <h4>Please enter your full name.</h4>
+          <div class="name">
+            <div class="fname">
+              <input placeholder="First name" type="text" />
+            </div>
+
+            <div class="lname">
+              <input placeholder="Last name" type="text" />
+            </div>
+          </div>
+
+          <!--Nhập giới tính-->
+          <h4>Please choose your gender.</h4>
+          <div class="gender">
+            <input name="gender" type="radio" />
+            <label>Male</label>
+
+            <input name="gender" type="radio" />
+            <label>Female</label>
+
+            <input name="gender" type="radio" />
+            <label>Other gender identity</label>
+
+            <input name="gender" type="radio" />
+            <label>I prefer not to answer this question</label>
+          </div>
+
+          <!--Nhập tên người dùng-->
+          <h4>Please enter your username & password.</h4>
+          <div class="username">
+            <input placeholder="Username" type="text" />
+          </div>
+
+          <!--Nhập mật khẩu-->
+          <div class="psswrd">
+            <div class="psswrd">
+              <input placeholder="Password" type="text" />
+            </div>
+
+            <div class="cfpsswrd">
+              <input placeholder="Confirm" type="text" />
+            </div>
+          </div>
+
+          <!--Đồng ý điều khoản-->
+          <h4>Please read terms and conditions.</h4>
+          <a href="https://policies.google.com/terms?hl=en-US"
+            >Terms and conditions</a
+          >
+          <div class="confirm">
+            <input type="checkbox" />
+            <span>I agree.</span>
+          </div>
+
+          <div class="cfbutton">
+            <input type="submit" value="Finish" />
+          </div>
+        </form>
+      </div>
+
+      <div class="right"></div>
+    </div>
+  </body>
+</html>
